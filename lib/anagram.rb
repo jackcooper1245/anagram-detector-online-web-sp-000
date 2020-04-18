@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match
-  @word.split("").sort{|a,b| a <=> b} == @word.split("")
+  @word.split("").sort{|a,b| a <=> b} == @word.split("").sort{|a,b| a <=> b}
 end
 
 end
